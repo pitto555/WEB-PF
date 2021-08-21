@@ -1,0 +1,44 @@
+/* 768px以下 */
+
+@media(max-width: 768px) {
+    .inner {
+        width: 100%;
+    }
+    .sp_only {
+        display: block;
+    }
+    nav {
+        height: 60px;
+    }
+    nav .sp-btn {
+        display: block;
+    }
+    .pc_only {
+        display: none;
+    }
+    .nav-left {
+        position: absolute;
+    }
+    .nav-left img {
+        width: 90px;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .nav-left P {
+        position: relative;
+        top: -16px;
+        left: 10px;
+        font-size: 5px;
+        letter-spacing: 0;
+        font-weight: bold;
+    }
+    header {
+        height: 370px;
+        background-image: url(img/mainsp.jpg);
+        background-position: bottom 20%;
+    }
+    header h2 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,257 @@
+@media(max-width: 768px) {
+
+nav{
+  display: none;
+}
+
+.menu-btn{
+  display: block;
+}
+
+
+.menu{
+  display: block;
+}
+
+.topwrapper{
+  height: 300px;
+}
+
+.top-text h1{
+  font-size: 6rem;
+}
+
+.main-logo{
+  padding-top: 20px;
+  height: 160px;
+
+}
+
+.top-text p{
+  display: none;
+}
+
+.service-item {
+   
+  margin: 20px 0;
+}
+
+/* ポートフォリオ */
+
+.po-to-items {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.snip1403{
+  border-radius: 20%;
+}
+
+
+.contact{
+  padding-top: 10px;
+  height: 100%;
+  
+}
+
+.contact-left {
+  margin: 0;
+}
+
+
+
+.contact-right textarea {
+  width: 400px;
+}
+
+
+.wrap {
+  overflow: hidden;
+}
+
+
+}
+
+
+
+@media(max-width: 480px)
+{
+
+
+  .po-to-oo{
+    margin: 0;
+  }
+
+/* トップページ */
+  .topwrapper{
+    height: 100%;
+    width: 100%;
+  }
+
+  .pc-img{
+    width: 50%;
+    height: 80px;
+  }
+
+  .main-logo{
+    padding-top: 110px;
+  }
+
+  .top-text h1{
+    font-size: 4rem;
+    padding-bottom: 60px;
+
+
+  }
+
+  .top-text{
+    margin-bottom: 50px;
+  }
+
+
+/* 自己紹介 */
+.About p{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.About-img{
+  width: 60%;
+  text-align: center;
+}
+
+.About{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.About-logo h1{
+  font-size: 4rem;
+}
+
+.name{
+  margin-left: 30px;
+}
+
+
+/* スキル */
+
+.skil-logo h1{
+  font-size: 4rem;
+}
+
+
+/* サービス */
+
+.service{
+  padding-top: 0;
+}
+.service-logo h1{
+  font-size: 4rem;
+}
+
+.service-item{
+  width: 50rem;
+}
+
+.service-logo{
+  margin-bottom: 0;
+}
+
+
+/* ポートフォリオ */
+
+
+.po-to-logo h1{
+  font-size: 4rem;
+
+}
+
+.po-to-items {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.po-to-item {
+  width: 300px;
+}
+
+
+
+
+.skil-item{
+  width: 527px;
+}
+
+
+
+/* コンタクト */
+
+.contact{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+
+.contact-logo{
+  margin-bottom: 0;
+}
+.contact-logo h1{
+  font-size: 4rem;
+}
+
+
+.contact-left input {
+  width: 300px;
+}
+
+.contact-right textarea {
+  width: 300px;
+  margin: 0;
+}
+
+.menu-btn{
+  right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-bars{
+  font-size: 2rem;
+  margin-left: 11px;
+  margin-top: 9px;
+}
+
+}
+
+@media(max-width: 1190px) {
+
+
+  .nav-item{
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .service {
+    box-sizing: border-box;
+    padding: 0 20px 100px 20px;
+  }
+
+  .contact-right textarea {
+    width: 400px;
+  }
+
+  .contact-left {
+    margin: 0;
+  }
+
+  .contact-right {
+    margin: 0;
+  }
+
+}
